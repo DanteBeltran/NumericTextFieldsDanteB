@@ -112,7 +112,8 @@ local function NumericFeildListener( event )
 			event.target.text = ""
 			counter = counter + 1
 			-- display counter
-			counterText = display.newText("Point Counter = "..counter, display.contentWidth/2, display.contentHeight/5, nil, 50)
+			counterText = display.newText("Point Counter = "..counter, display.contentWidth/2,
+			 display.contentHeight/5, nil, 50)
 			counterText:setTextColor (190/255, 100/255, 30/255)
 			
 		else
